@@ -1,0 +1,8 @@
+def SI(p,n,r):
+  si=p*n*r/100
+  print(F"simple interest={si}")
+principle=float(input())
+term=int(input())
+rate=float(input())
+  
+SI(principle,term,rate)  
